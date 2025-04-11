@@ -1,0 +1,65 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# Model files (optional, if downloaded locally)
+*.bin
+*.pt
+*.ckpt
+
+# Hugging Face cache
+~/.cache/huggingface/
+.cache/
+
+# Logs and history
+*.log
+*.jsonl
+*.csv
+*.sqlite
+*.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Output folders
+saved_responses/
+comparison_results/
+history/
+prompts/
+
+# Markdown exports (optional)
+*.md
+
+# If using Docker
+*.env
+.env.*
+docker-compose.override.yml
